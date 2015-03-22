@@ -1,0 +1,95 @@
+---
+title: "CodeBook"
+output: html_document
+---
+
+DATA DICTIONARY - TIDY DATASET
+----------------------------------
+
+sub_id
+  Subject ID
+    Unique identifier for people who participated in the experiment; 1-30
+    
+act_desc
+  Activity Description
+    Describes the specific activity performed by the subject in the experiment - 
+    #WALKING 
+    #WALKING_UPSTAIRS 
+    #WALKING_DOWNSTAIRS
+    #SITTING
+    #STANDING
+    #LAYING
+    
+tBodyAcc_mean()_X
+tBodyAcc_mean()_Y
+tBodyAcc_mean()_Z
+  Mean value of Triaxial acceleration readings of estimated body acceleration from the accelerometer 
+
+tBodyAcc_std()_X
+tBodyAcc_std()_Y
+tBodyAcc_std()_Z
+  Std. deviation of Triaxial acceleration readings estimated body acceleration from the accelerometer
+
+tGravityAcc_mean()_X
+tGravityAcc_mean()_Y
+tGravityAcc_mean()_Z
+   Mean value of Triaxial acceleration readings of estimated gravitational acceleration from the accelerometer 
+
+tGravityAcc_std()_X
+tGravityAcc_std()_Y
+tGravityAcc_std()_Z
+   Std. deviation of Triaxial acceleration readings of estimated gravitational acceleration from the accelerometer 
+   
+tBodyAccJerk_mean()_X
+tBodyAccJerk_mean()_Y
+tBodyAccJerk_mean()_Z
+  Mean value of Triaxial acceleration readings of estimated body acceleration jerks from the accelerometer 
+
+tBodyAccJerk_std()_X
+tBodyAccJerk_std()_Y
+tBodyAccJerk_std()_Z
+  Std. deviation of Triaxial acceleration readings of estimated body acceleration jerks from the accelerometer 
+  
+tBodyGyro_mean()_X
+tBodyGyro_mean()_Y
+tBodyGyro_mean()_Z
+  Mean value of Triaxial angular velocity from the gyroscope
+
+tBodyGyro_std()_X
+tBodyGyro_std()_Y
+tBodyGyro_std()_Z
+  Std. deviation of Triaxial angular velocity from the gyroscope
+  
+tBodyGyroJerk_mean()_X
+tBodyGyroJerk_mean()_Y
+tBodyGyroJerk_mean()_Z
+  Mean value of Triaxial angular velocity of estimated body jerks from the gyroscope
+
+tBodyGyroJerk_std()_X
+tBodyGyroJerk_std()_Y
+tBodyGyroJerk_std()_Z
+  Std. deviation of Triaxial angular velocity of estimated body jerks from the gyroscope
+  
+tBodyAccMag_mean()
+tBodyAccMag_std()
+  Mean value and Std. deviation of time domain variables
+  
+tGravityAccMag_mean()
+tGravityAccMag_std()
+  Mean value and Std. deviation of time domain variables
+  
+tBodyAccJerkMag_mean()
+tBodyAccJerkMag_std()
+  Mean value and Std. deviation of time domain variables
+    
+...Continued variables that start with 't' are mean & std. deviation values of time domain variables
+...Continued variables that start with 'f' are mean & std. deviation values of frequency domain variables. 
+
+
+
+
+
+
+
+
+
